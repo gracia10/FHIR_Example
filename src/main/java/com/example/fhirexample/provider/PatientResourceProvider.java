@@ -1,4 +1,4 @@
-package com.example.fhirexample.ResourceProvider;
+package com.example.fhirexample.provider;
 
 import ca.uhn.fhir.rest.annotation.IdParam;
 import ca.uhn.fhir.rest.annotation.Read;
@@ -18,10 +18,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class PatientResourceProvider implements IResourceProvider {
-
-    public PatientResourceProvider() {
-        System.out.println("made PatientResourceProvider");
-    }
 
     private Map<String, Patient> patientMap = new HashMap<String, Patient>();
 
