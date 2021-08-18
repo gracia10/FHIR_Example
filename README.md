@@ -1,4 +1,3 @@
-
 ###HAPI instance
 __FhirContext__ 
 - HAPI API/Object(Client,Parser)를 위한 factory. 
@@ -16,3 +15,6 @@ parser.set
 Patient patient = parser.parseResource(Patient.class, msgString);
 ```
 
+---
+### Example  
+https://dzone.com/articles/fhir-code-in-10min
